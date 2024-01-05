@@ -1,0 +1,445 @@
+html{
+    background-color: #FEE; 
+}
+
+
+*{
+    margin: 0 auto;
+}
+
+.body {
+    width: 100%;
+    max-width:1280px;
+    height: 1305px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1280px;
+    width:100%;
+    max-height: 195px;
+    height: auto;
+    
+    flex-shrink: 0;
+    background: #A44A4A;
+}
+
+.logo{
+    max-width:396px;
+    width: 30%;
+    height: auto;
+    flex-shrink: 0;
+    margin-left:3.9%;
+    margin-top:5.6%;
+    margin-bottom:5.7%;
+}
+
+.mid{
+        width:100%;
+        max-width: 1280px;
+        height: auto;
+        flex-shrink: 0;
+        margin:0 auto;
+        position: relative;
+        text-align:center;
+        
+}
+.mid-picture{
+    max-width: 1280px;
+    width:100%;
+    max-height: 481px;
+    height: auto;
+    flex-shrink: 0;
+    margin-top: 3.678%;
+    position: relative;
+    text-align:center;
+}
+
+.welcome-text{
+    max-width: 407px;
+    width:32%;
+    height: auto;
+    color: #E06464;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.nav{
+    max-width: 1241px;
+    width:100%;
+    height: auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top:4.7%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    text-align:center;
+}
+
+a{
+    display: block;
+}
+
+
+#about{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+    
+}
+#about:hover{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+    margin-top:-5%;
+    content: url('關於我們hover-03.png')
+}
+
+#diagnostic{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+}
+
+#diagnostic:hover{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+    margin-top:-5%;
+    content: url('診斷hover-08.png')
+}
+
+#book{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+}
+
+#book:hover{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+    margin-top:-5%;
+    content: url('圖鑑hover-09.png')
+}
+
+
+#recruit{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+#recruit:hover{
+    max-width:273px;
+    width: 21.3%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right:3.9%;
+    margin-top:-5%;
+    content: url('加入我們-10.png')
+}
+
+
+.introduction{
+    position: relative;
+    text-align:center;
+    max-width: 1193px;
+    width:100%;
+    height: 240px;
+    flex-shrink: 0;
+}
+
+
+
+#aboutp{
+    width: 1193px;
+    height: 240px;
+    flex-shrink: 0;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+}
+#aboutt{
+    width: 885px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #E06464;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+    
+}
+#diagnosisp{
+    width: 1193px;
+    height: 240px;
+    flex-shrink: 0;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+}
+#diagnosist{
+    width: 885px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #E06464;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+}
+#bookp{
+    width: 1193px;
+    height: 240px;
+    flex-shrink: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+}
+#bookt{
+    width: 885px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #E06464;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+   
+}
+#recruitp{
+    width: 1193px;
+    height: 240px;
+    flex-shrink: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+    
+    
+    
+    
+}
+#recruitt{
+    width: 885px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #E06464;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+   
+}
+
+@media(max-width: 768px)
+{
+    .body {
+        width: 100%;
+        max-width:768px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0 auto;
+        box-sizing: border-box;
+    }
+
+    .nav{
+        max-width: 745px;
+        width:100%;
+        height: auto;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+        margin-top:4.7%;
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        text-align:center;
+    }
+
+    .welcome-text{
+        font-size:22px;
+    }
+    
+    #about{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+        
+    }
+    #about:hover{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+        margin-top:-5%;
+        content: url('關於我們hover-03.png')
+    }
+    
+    #diagnostic{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+    }
+    
+    #diagnostic:hover{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+        margin-top:-5%;
+        content: url('診斷hover-08.png')
+    }
+    
+    #book{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-top:10%;
+        margin-right:3.9%;
+    }
+    
+    #book:hover{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+        margin-top:-5%;
+        content: url('圖鑑hover-09.png')
+    }
+    
+    
+    #recruit{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-top:10%;
+    }
+    
+    #recruit:hover{
+        max-width:273px;
+        width: 43%;
+        height: auto;
+        flex-shrink: 0;
+        margin-right:3.9%;
+        margin-top:-5%;
+        content: url('加入我們-10.png')
+    }
+
+
+
+
+   
+}
+
+@media(max-width: 390px)
+{  .welcome-text{
+    font-size:15px;
+}
+    
+.body {
+    width: 100%;
+    max-width:768px;
+    height: 882px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+}

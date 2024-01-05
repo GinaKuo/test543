@@ -1,0 +1,186 @@
+.body {
+    width: 100%;
+    max-width:1280px;
+    height: 1083px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+html{
+    background-color: #FEE; 
+}
+
+*{
+    margin: 0 auto;
+}
+
+.body {
+    width: 100%;
+    max-width:1280px;
+    height: 1196px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+header{
+    max-width: 1280px;
+    width:100%;
+    max-height: 195px;
+    height:auto;
+    flex-shrink: 0;
+    background: #A44A4A;
+}
+
+
+.box{
+    width:90%;
+    height: 4.3%;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+.logo{
+    max-width:396px;
+    width: 30%;
+    height: auto;
+    flex-shrink: 0;
+    margin-left:3.9%;
+    margin-top:5.6%;
+    margin-bottom:5.7%;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    width:100%;
+    max-width:1280px;
+    height:5.1%;
+    
+    
+}
+
+
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+    margin-left:95%;
+    margin-top:-20px;
+    padding-bottom:10px;
+    
+  }
+
+  
+a{
+    text-decoration: none;
+    color:inherit;
+}
+  
+.menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #FEE;
+    margin: 6px 0;
+  }
+
+.backhome,.Aboutus,.Diagnosis,.Book,.recruit{
+    font-size:30px;
+    color: #A44A4A;
+    font-weight:900;
+    padding-top:1.2%;
+    padding-bottom:1.2%;
+    margin-left:27%;
+    
+}
+
+.backhome-box,.aboutus-box,.Diagnosis-box,.book-box,.recruit-box{
+    background-color: #EFCFCF;
+    width: 20%;
+    height:5.7%;
+    
+}
+
+.Diagnosis,.Book{
+    margin-left:37.5%;
+
+}
+
+.recruit{
+    margin-left:35%;
+}
+
+
+.backhome-box:hover,.aboutus-box:hover,.Diagnosis-box:hover,.book-box:hover,.recruit-box:hover{
+    
+    align-items: center;
+    background-color:#EAB0B0;
+}
+.list{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-items: center;
+    justify-content: center;
+    margin: 32px 515px;
+}
+
+
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    margin-left:0;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite; /* 調整動畫時間 */
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  img {
+    width: 100%; /* 使圖片充滿父元素的寬度 */
+    height: auto; /* 自動調整高度，以保持圖片比例 */
+  }
+
+.hero-1{
+    width: 28.6%;
+    height: 16.06%;
+    flex-shrink: 0;
+}
+
+.b1{
+    width: 353px;
+    height: 308px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #C4BABA;
+}
